@@ -236,18 +236,24 @@ header .topmenu .top-data li a.log-top:hover {
 }
 
 
-.navbar-nav>li {
+.normal-nav {
     height: 65px;
     line-height: 65px;
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     transition: all .5s ease-in-out;
 }
 
-.navbar-nav>li:hover,
-.navbar-nav>li:active {
+.normal-nav:hover,
+.normal-nav:active {
     border-bottom: 2px solid #2196f3;
     background: #f0f0f0;
 }
+
+.button-nav{
+  height: 65px;
+  line-height: 65px;
+}
+
 
 .navbar-nav>li>a {
     color: #808282 !important;

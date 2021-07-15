@@ -16,4 +16,4 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC, L]
 
 #redirect
-Redirect 301 / https://www.equations.co.in/
+Redirect 301 / https://trusting-babbage-1acaa4.netlify.app/

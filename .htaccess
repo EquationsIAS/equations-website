@@ -14,6 +14,3 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 #here we actually show the page that has the .html extension
 
 RewriteRule ^(.*)$ $1.html [NC, L]
-
-#redirect
-Redirect 301 /icourse.html https://trusting-babbage-1acaa4.netlify.app/

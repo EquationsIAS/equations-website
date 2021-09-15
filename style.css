@@ -14,7 +14,7 @@ body{
 
 h1{
     font-size: 64px;
-    font: weight 900px;;
+    font: weight 900px;
 }
 
 h2{
@@ -58,6 +58,9 @@ nav{
     justify-content: space-around;
     width:55% ;
     top:30px;
+    z-index: 10;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
 
 }
 
@@ -84,6 +87,7 @@ nav .nav-links .normal-link:hover {
 .sub-menu-1{
 
     display: none;
+
 
 }
 
@@ -147,6 +151,7 @@ nav .nav-links .normal-link:hover .sub-menu-1 ul li{
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+
     }
     .nav-links li{
         opacity: 1;
@@ -307,13 +312,13 @@ line-height:71.7px;
         justify-content: center;
         align-items: center;
         text-align: center;
-
         margin-left: 30px;
         padding-top: 100px;
     }
 
-     h1{
-        font-size: 60px;
+    .main-h1{
+        font-size: 40px;
+        line-height: 51.7px;
      }
     .cover{
         display: none;
@@ -321,6 +326,15 @@ line-height:71.7px;
     .card-main-1,.card-2{
         display: none;
     }
+    .main-p{
+        font-size: 14px;
+    }
+    .presentation{
+        min-height: 0vh;
+    padding: 8vh 0;}
+
+
+
 }
 @media screen and (max-width:1299px){
 
@@ -506,6 +520,7 @@ line-height:71.7px;
 
     }
 
+
 }
 /*===================================
 /*-----------------Courses-nav-section------------
@@ -541,17 +556,23 @@ line-height:71.7px;
 }
 @media screen and (max-width:1299px){
     .nav-ul{
-        width: 70%;
+        width: 80%;
+        margin: 0 auto;
+
+        justify-content: space-around;
     }
 
 }
 @media screen and (max-width:954px){
     .nav-ul{
-        width: 80%;
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-around;
 
     }
     .nav-ul h4,.nav-ul p{
-        font-size: 80%;
+        font-size: 50%;
+        font-weight: 700;
     }
 }
 /*===================================
@@ -688,6 +709,31 @@ height: 63px;
         .lv-1-sec{
         margin-top: 50px;
     }
+/*      sssssssssss*/
+
+
+
+.lv-img{
+    width: 317px;
+   height: 233px;
+
+}
+.lv-blue{
+    width: 317px;
+    height: 233px;
+
+
+}
+
+.lv-polka{
+
+    padding:50px;
+   width:10px;
+   height:100px;
+   left:-8%;
+   top: 72%;
+
+}
 
 }
 
@@ -809,7 +855,11 @@ font-size: 20px;
         }
 
 }
-@media screen and (max-width:954px){.perk-1-sec{display: none;}}
+@media screen and (max-width:954px){.perk-1-sec{display: none;}
+.perks-section{
+
+    padding: 7vh 0 ;
+}}
 /*===================================
 /*-----------------youtube-live Section------------
 ======================================*/
@@ -917,27 +967,35 @@ padding-left: 15px;
 }
 @media screen and (max-width:954px){
     .polka-yt{
-        width:100px;
-        height:100px;
-        left:75%;
-        top: 52%;
+        display: none;
 
     }
     .yt-img-2{
        visibility: hidden;
+       position: absolute;
+       pointer-events: none;
     }
     .yt-img-1{
-        height:300px; width:150px;
-        top: 15%;
+        height:230px; width:120px;
+        top: 30%;
         left: 60%;
     }
     .cta-yt
-    { width: 200px;
-            height: 63px; font-size: 16px;
+    {   width: 150px;
+        margin-top:10px ;
+        height: 63px; font-size: 16px;
+        font-size: .75em;
        }
        .yt-ul{
            padding-bottom: 15px;
+           max-width: 200px;
        }
+       .yt-live-h{
+        font-size: 32px; margin-top: 10px;
+    }
+    .yt-ul p{
+        font-size: 12px;
+    }
 }
 
 /*===================================
@@ -1035,9 +1093,22 @@ padding-left: 15px;
     }
     .testimonial-1{display: none;}
     .testimonial-text-container{
-        padding-bottom:40px ;
+        padding:20px 0 ;
+        max-width: 90%;
 
     }
+    .testimonial-container{
+        max-width:90%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 100px;
+    }
+    .testimonial-polka{display: none;}
+    .testimonial-img{display: block;}
+
+
 }
 @media screen and (max-width:1299px){
     .testimonial-h{
@@ -1206,7 +1277,63 @@ padding-left: 15px;
     font-size: 20px;
     position: relative;
 }
+@media screen and (max-width:1299px){
+    .mentor-h{
+        font-size: 32px;
+    }
+    .mentor-p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:944px){
 
+    .blue-shape-mentor{
+        width: 257.2px;
+        height: 269.83px;
+    }
+    .red-shape-mentor{
+        width: 257.2px;
+        height: 269.83px;
+    }
+    .im-m-1,.im-m-2,.im-m-3,.img-m-1,.img-m-2,.img-m-3{
+    height: 270px;
+    width: 245px;
+    }
+    .img-m-2,.im-m-2{
+        padding-left: 20px;
+    }
+    .im-m-1,.img-m-1{
+
+        padding-left: 20px;
+    }
+    .img-m-3,.im-m-3{
+        position: relative;
+        bottom: 8%;
+        right: 2%;
+        height: 260px;
+        width: 240px;
+    }
+    .slider .slick-prev:before{
+        left:20px;
+        top:-60px;
+    }
+    .slider .slick-next:before{
+        right:35px;
+        top:-60px;
+    }
+    .mentor-content{
+        padding-left: 20px;
+    }
+    .card-special{    margin-left: -44px;
+
+        position: relative;
+        left: 16%;}
+        .testimonial-text-container {
+            padding-right: 20px;
+            padding-top: 25px;
+        }
+
+}
 /*===================================
 /*-----------------footer-section------------
 ======================================*/

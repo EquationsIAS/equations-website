@@ -47,10 +47,11 @@ nav{
     align-items: center;
     min-height: 10vh;
     font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
-    width: 90%;
-    margin: 0 auto;
 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    padding:10px 5%;
 }
 
 .nav-links{
@@ -62,6 +63,7 @@ nav{
     z-index: 10;
    border-bottom-left-radius: 10px;
    border-top-left-radius: 10px;
+
 
 }
 
@@ -1560,9 +1562,9 @@ ul{
 	list-style: none;
 }
 .footer{
-    width: 90%;
+    width: 100%;
     margin:0 auto;
-	background-color: #f3f3f3;
+	background-color: #f9f9f9;
     padding: 70px 0;
 }
 

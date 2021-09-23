@@ -1664,7 +1664,7 @@ ul{
 
 /*Contact----section*/
 .contact-section{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding:10vh 0 ;
 
@@ -1723,6 +1723,7 @@ ul{
 	cursor: pointer;
 
 }
+
 
 @media screen and (max-width:1299px){
     .contact-h1{

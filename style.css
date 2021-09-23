@@ -47,20 +47,23 @@ nav{
     align-items: center;
     min-height: 10vh;
     font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
-    width: 90%;
-    margin: 0 auto;
 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    padding:10px 5%;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width:55% ;
+    align-items: center;
+    width:45% ;
     top:30px;
     z-index: 10;
    border-bottom-left-radius: 10px;
    border-top-left-radius: 10px;
+
 
 }
 
@@ -1559,9 +1562,9 @@ ul{
 	list-style: none;
 }
 .footer{
-    width: 90%;
+    width: 100%;
     margin:0 auto;
-	background-color: #f3f3f3;
+	background-color: #f9f9f9;
     padding: 70px 0;
 }
 
@@ -1659,4 +1662,104 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+/*Contact----section*/
+.contact-section{
+
+    padding:10vh 0 ;
+    background-color: #e5e5e5;
+
+}
+.contact-container{
+  width: 90%;
+  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-text{
+    width: 50%;
+}
+.contact-map{
+    width: 40%;
+    height: 100%;
+}
+.contact-ul{
+    list-style: disc;
+    margin-bottom: 50px;
+}
+.contact-ul li{
+    margin-bottom: 16px;
+}
+.contact-h1{
+    text-align: center;
+    font-size: 40px;
+    color: #0A1931;
+    margin-bottom: 80px ;
+}
+.contact-h2{
+    font-size: 25px;
+    color: #185ADB;
+    margin-bottom: 20px;
+}
+.contact-social{
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    box-shadow: 4px 4px 6px rgba(209, 209, 209, 0.25);
+    border-radius: 15px;
+}
+.contact-social .fa-facebook{
+	color:#4c6ef5;
+	cursor: pointer;
+
+}
+.contact-social .fa-instagram{
+	color:#f783ac;
+	cursor: pointer;
+
+}
+.contact-social .fa-youtube{
+	color:#FF0000;
+	cursor: pointer;
+
+}
+
+
+@media screen and (max-width:1299px){
+    .contact-h1{
+        font-size: 32px;
+    }
+    .contact-h2{
+        font-size: 20px;
+    }
+    .contact-p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:944px){
+    .contact-container{
+       flex-direction: column;
+    }
+    .contact-map{
+        width: 100%;
+    }
+    .contact-social{
+        margin-top: 20px ;
+        margin-bottom: 50px;
+        width: 50%;
+
+
+    }
+    .contact-text{
+        width: 100%;
+    }
+    .contact-h1 {
+
+
+        margin-bottom: 40px;
+    }
 }

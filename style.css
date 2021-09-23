@@ -1664,12 +1664,14 @@ ul{
 
 /*Contact----section*/
 .contact-section{
-    width: 90%;
-    margin: 0 auto;
+
     padding:10vh 0 ;
+    background-color: #e5e5e5;
 
 }
 .contact-container{
+  width: 90%;
+  margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }

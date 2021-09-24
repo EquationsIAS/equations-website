@@ -128,7 +128,8 @@ nav .nav-links .normal-link:hover .sub-menu-1 ul li{
     border: 1px solid hsl(48, 100%, 58%);
     padding: 12px 20px;
     border-radius: 10px;
-    font-weight: regular;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -1762,4 +1763,75 @@ ul{
 
         margin-bottom: 40px;
     }
+}
+/*===================================
+/*-----------------upsc-ias-Section------------
+======================================*/
+.course-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+.course-h1{
+    font-size: 40px;
+    color: #0A1931;
+    margin-bottom:2% ;
+    text-align: center;
+}
+.list-group{
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+
+}
+.list-group-item{
+    padding: 12px 20px;
+    border: 1px solid rgba(0,0,0,.125);
+
+}
+
+.btn-danger{
+    background-color: hsl(0, 76%, 62%);
+    border: 1px solid hsl(0, 76%, 52%);
+    color: white;
+    cursor: pointer;
+}
+.btn-danger:hover{
+    background-color: hsl(0, 76%, 52%);
+}
+.btn-light{
+    border: none;
+    background-color: transparent;
+    color: #4c6ef5;
+   cursor: pointer;
+}
+
+.courses-p{
+    padding-bottom: 1rem;
+    line-height:25px;
+    max-width: 85%;
+}
+
+.courses-h5{
+    font-size: 25px;
+    color: #4c6ef5;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:944px){
+    .list-group{
+
+        width: 100%;
+
+    }
+    .courses-p{
+        padding-bottom: 2rem;
+
+    }
+    .course-h1{
+
+        text-align:start;
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+
 }

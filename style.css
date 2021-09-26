@@ -688,7 +688,7 @@ padding-top: 15px;
  .prev{
     position: absolute;
     top: 50%;
-    left: 5px;
+    left: -5px;
     cursor: pointer;
     z-index: 2;
     font-size: 2rem;

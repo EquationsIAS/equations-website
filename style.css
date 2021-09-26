@@ -6,7 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #f3f3f3;
+    background-color: #f9f9f9;
     color: #4f4f4f;
     margin: 0;
     padding:0;
@@ -48,10 +48,10 @@ nav{
     min-height: 10vh;
     font-family: 'Roboto', sans-serif;
 
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    background-color: #e5e5e5;
-    padding:10px 5%;
+   background-color: #f9f9f9;
+    padding:10px 0;
 }
 
 .nav-links{
@@ -86,6 +86,7 @@ nav{
 nav .nav-links .normal-link:hover {
     background-color: hsl(48, 100%, 78%) ;
     border-radius: 5px;
+    font-weight: 700;
 }
 .sub-menu-1{
 
@@ -273,7 +274,7 @@ line-height:71.7px;
    height:300px;
    left:95px;
    top: 2px;
-   background-color:#f3f3f3;
+   background-color: #f9f9f9;
    background-image:radial-gradient(#B8CDF6 3px,transparent 3px);
    background-size:20px 20px;
 }
@@ -557,10 +558,11 @@ padding-top: 15px;
 /*-----------------Courses-section------------
 ======================================*/
 .courses-section{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding:10vh 0;
+    padding:10vh 5%;
     position: relative;
+    background-color: #f3f3f3;
 }
 .common-flex{
     display: flex;
@@ -680,7 +682,7 @@ padding-top: 15px;
  .next{
     position: absolute;
     top: 50%;
-    right: 5px;
+    right: 5%;
     cursor: pointer;
     z-index: 2;
     font-size: 2rem;
@@ -688,7 +690,7 @@ padding-top: 15px;
  .prev{
     position: absolute;
     top: 50%;
-    left: -5px;
+    left: 4%;
     cursor: pointer;
     z-index: 2;
     font-size: 2rem;
@@ -760,7 +762,7 @@ height: 63px;
    height:245px;
    left:-12%;
    top: 52%;
-   background-color:#f3f3f3;
+   background-color: #f9f9f9;
    background-image:radial-gradient(#ee818166 3px,transparent 3px);
    background-size:20px 20px;
 }
@@ -949,7 +951,7 @@ height: 63px;
    height:235px;
    left:65%;
    top: 63%;
-   background-color:#f3f3f3;
+   background-color: #f9f9f9;
    background-image:radial-gradient(#B8CDF6 3px,transparent 3px);
    background-size:20px 20px;
 }
@@ -1054,13 +1056,13 @@ font-size: 20px;
 /*-----------------youtube-live Section------------
 ======================================*/
 .youtube-live{
-    padding-top:10%;
-    padding-bottom:10%;
+  padding:10vh 5%;
     display: flex;
-   width: 90%;
+   width: 100%;
    margin: 0 auto;
    justify-content: space-between;
    position: relative;
+   background-color: #f3f3f3;
 
 
 }
@@ -1110,7 +1112,7 @@ padding-left: 15px;
    height:245px;
    left:52%;
    top: 12%;
-   background-color:#f3f3f3;
+   background-color: #f9f9f9;
    background-image:radial-gradient(#ee818166 3px,transparent 3px);
    background-size:20px 20px;
 
@@ -1274,7 +1276,7 @@ padding-left: 15px;
    height:245px;
    left:78%;
    top: 72%;
-   background-color:#f3f3f3;
+   background-color: #f9f9f9;
    background-image:radial-gradient(#ee818166 3px,transparent 3px);
    background-size:20px 20px;
 }
@@ -1565,7 +1567,7 @@ ul{
 .footer{
     width: 100%;
     margin:0 auto;
-	background-color: #f9f9f9;
+	background-color: #f3f3f3;
     padding: 70px 0;
 }
 
@@ -1578,7 +1580,7 @@ ul{
 	color: #0A1931;
 	text-transform: capitalize;
 	margin-bottom: 35px;
-	font-weight: 500;
+	font-weight: 700;
 	position: relative;
 }
 .footer-col h4::before{
@@ -1669,7 +1671,7 @@ ul{
 .contact-section{
 
     padding:10vh 0 ;
-    background-color: #e5e5e5;
+    background-color: #f9f9f9;
 
 }
 .contact-container{

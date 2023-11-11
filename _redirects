@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+/cds-course                /cds-coaching-in-dehradun
+/cds                       /cds-coaching-in-dehradun
+

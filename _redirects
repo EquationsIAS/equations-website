@@ -1,4 +1,22 @@
 # Redirects from what the browser requests to what we serve
-/cds-course                /cds-coaching-in-dehradun
-/cds                       /cds-coaching-in-dehradun
+/upsc-ias-course          /upsc-ias-coaching-in-dehradun
+/upsc                     /upsc-ias-coaching-in-dehradun
+/ias                      /upsc-ias-coaching-in-dehradun
+
+/cds-course               /cds-coaching-in-dehradun
+/cds                      /cds-coaching-in-dehradun
+
+/ssc-course               /ssc-coaching-in-dehradun
+/ssc                      /ssc-coaching-in-dehradun
+/ssccourse.html           /ssc-coaching-in-dehradun
+
+/pcs                      /pcs-coaching-in-dehradun
+
+/bank-po                  /bank-po-coaching-in-dehradun
+/bpo-course               /bank-po-coaching-in-dehradun
+/bpocourse.html           /bank-po-coaching-in-dehradun
+
+
+
+
 

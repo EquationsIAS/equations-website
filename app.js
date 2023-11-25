@@ -209,7 +209,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 */
 
-
+/*
 (function(d, m){
     var kommunicateSettings = {"appId":"35a308422564e4cf1cab3613837582837","popupWidget":true,"automaticChatOpenOnNavigation":true,
 
@@ -232,3 +232,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
     window.kommunicate = m; m._globals = kommunicateSettings;
   })(document, window.kommunicate || {});
+*/

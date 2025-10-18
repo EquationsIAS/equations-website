@@ -1864,8 +1864,18 @@ ul{
     z-index:100;
 }
 
-.my-float{
-	margin-top:16px;
+.float .whatsapp-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.float .whatsapp-btn i{
+    font-size: 20px;
 }
 
 .local-section{

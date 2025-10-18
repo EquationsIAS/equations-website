@@ -77,6 +77,9 @@ nav{
 }
 
 .nav-links .phone-link a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: #d64045;
     font-weight: 700;
     padding: 12px 18px;

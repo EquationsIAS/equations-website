@@ -1855,3 +1855,106 @@ ul{
 .my-float{
 	margin-top:16px;
 }
+
+.local-section{
+    padding: 80px 0;
+    background: #f7f9ff;
+}
+
+.local-container{
+    width: 90%;
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #13294b;
+}
+
+.local-heading{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #0a1f44;
+}
+
+.local-intro{
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 860px;
+    margin: 0 auto 2.5rem auto;
+    text-align: center;
+}
+
+.local-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.local-card{
+    background: #ffffff;
+    border: 1px solid #dbe3f5;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 18px 38px rgba(13, 28, 71, 0.08);
+}
+
+.local-card h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0a1f44;
+}
+
+.local-card ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.local-card li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+.local-card li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f24b4b;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.local-cta{
+    margin-top: 32px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.local-cta a{
+    color: #f24b4b;
+    text-decoration: none;
+}
+
+.local-cta a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+    .local-section{
+        padding: 60px 0;
+    }
+
+    .local-heading{
+        font-size: 1.9rem;
+    }
+
+    .local-intro{
+        font-size: 1rem;
+    }
+}
